@@ -18,7 +18,7 @@ const sendDiscordWebhook = async (steal) => {
         headers: {
             "Content-type": "application/json"
         },
-        body: JSON.stringify(config.discordWebhook.webhook.message).split("[STEAL]").join(`${steal}%`)
+        body: JSON.stringify(config.discordWebhook.webhook.message).replace('[STEAL]', steal)
     });
 }
 

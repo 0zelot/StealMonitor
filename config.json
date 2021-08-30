@@ -12,7 +12,7 @@
                 "content": "",
                 "embeds": [{
                     "title": "High steal on the server ",
-                    "description": "Currently Steal is **[STEAL]**!\n\nSee on [GitHub](https://github.com/0zelot/StealMonitor)",
+                    "description": "Currently Steal is **[STEAL]%**!\n\nSee on [GitHub](https://github.com/0zelot/StealMonitor)",
                     "color": 15258703
                 }]
             }
