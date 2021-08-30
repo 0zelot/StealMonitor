@@ -13,12 +13,12 @@ const logToFile = (steal) => {
 }
 
 const sendDiscordWebhook = async (steal) => {
-    const webhook = await fetch(config.discordWebhook.webhook.url, {
+    return await fetch(config.discordWebhook.webhook.url, {
         method: "POST",
         headers: {
             "Content-type": "application/json"
         },
-        body: JSON.stringify(config.discordWebhook.webhook.message).split("[STEAL]").join(`${steal}%`)
+        body: JSON.stringify(config.discordWebhook.webhook.message).replaceAll('[STEAL]', steal)
     });
 }
 
