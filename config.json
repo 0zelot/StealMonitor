@@ -1,0 +1,21 @@
+{
+    "minToAlert": 20,
+    "logging": true,
+    "commandsAfterAlert": [],
+    "discordWebhook": {
+        "enabled": true,
+        "webhook": {
+            "url": "Discord webhook url",
+            "message": {
+                "username": "Steal Monitor",
+                "avatar": "https://i.imgur.com/WvdqNAQ.png",
+                "content": "",
+                "embeds": [{
+                    "title": "High steal on the server ",
+                    "description": "Currently Steal is **[STEAL]**!\n\nSee on [GitHub](https://github.com/0zelot/StealMonitor)",
+                    "color": 15258703
+                }]
+            }
+        }
+    }
+}
