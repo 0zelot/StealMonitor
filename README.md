@@ -3,7 +3,7 @@ Simple app that allows you to control Steal CPU on the Linux server.
 
 Sometimes some VPS delivers practice overselling. If the level of steal is high, your server may run out of the CPU power so it will work with reduced efficiency. This app will notify you with a high level of Steal CPU. 
 
-## Instalation
+## Installation
 
 All you need to do is place files in any directory on your server, you will configure the application and run it. 
 
