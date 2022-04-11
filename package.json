@@ -2,7 +2,7 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "moment": "^2.29.2",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.7"
   },
   "name": "stealmonitor",
   "description": "Simple app that allows you to control the Steal CPU on the Linux server",
